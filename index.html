@@ -3,13 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ZERA SMP</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>ZERA SMP</h1>
-    <p>Site başarıyla çalışıyor.</p>
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="ZERA SMP">
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="pages/rules.html">Kurallar</a>
+                <a href="pages/players.html">Oyuncular</a>
+                <a href="pages/announcements.html">Duyurular</a>
+                <a href="pages/staff-application.html">Yetkili Başvurusu</a>
+            </nav>
+
+            <a
+                href="https://discord.gg/tKyz5p6MWx"
+                target="_blank"
+                class="discord-button"
+            >
+                Discord
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    ZERA SMP • SEZON 1
+                </span>
+
+                <h1>
+                    Kendi Dünyanı
+                    <span>Yarat.</span>
+                </h1>
+
+                <p>
+                    ZERA SMP, arkadaşlarınla birlikte macera yaşayabileceğin,
+                    ekonomiye ve topluluğa dayalı yeni nesil Minecraft sunucusudur.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button id="copy-ip" class="primary-button">
+                        SUNUCUYA KATIL
+                    </button>
+
+                    <a
+                        href="https://discord.gg/tKyz5p6MWx"
+                        target="_blank"
+                        class="secondary-button"
+                    >
+                        DISCORD'A KATIL
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVER STATUS -->
+        <section class="server-section">
+
+            <div class="section-title">
+                <span>SERVER</span>
+                <h2>Sunucu Durumu</h2>
+                <p>ZERA SMP'nin anlık durumunu buradan takip edebilirsin.</p>
+            </div>
+
+
+            <div class="server-cards">
+
+                <div class="server-card">
+
+                    <div class="card-icon">●</div>
+
+                    <div>
+                        <span>Durum</span>
+                        <strong id="server-status">
+                            Yükleniyor...
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="server-card">
+
+                    <div class="card-icon">♟</div>
+
+                    <div>
+                        <span>Oyuncular</span>
+                        <strong id="server-players">
+                            Yükleniyor...
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="server-card">
+
+                    <div class="card-icon">⌁</div>
+
+                    <div>
+                        <span>Ping</span>
+                        <strong id="server-ping">
+                            Yükleniyor...
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="server-card">
+
+                    <div class="card-icon">◆</div>
+
+                    <div>
+                        <span>Sürüm</span>
+                        <strong id="server-version">
+                            Yükleniyor...
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features-section">
+
+            <div class="section-title">
+                <span>ZERA SMP</span>
+                <h2>Neden ZERA?</h2>
+            </div>
+
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-number">
+                        01
+                    </div>
+
+                    <h3>Ekonomi</h3>
+
+                    <p>
+                        Oyuncuların emeklerinin karşılığını aldığı
+                        dengeli ve gelişmiş ekonomi sistemi.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-number">
+                        02
+                    </div>
+
+                    <h3>Topluluk</h3>
+
+                    <p>
+                        Aktif oyuncular, etkinlikler ve sürekli gelişen
+                        güçlü bir ZERA topluluğu.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-number">
+                        03
+                    </div>
+
+                    <h3>Güvenli Oyun</h3>
+
+                    <p>
+                        Hile ve kötüye kullanımlara karşı korunan,
+                        adil bir oyun ortamı.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div>
+                <strong>ZERA SMP</strong>
+                <p>
+                    Yeni nesil Minecraft deneyimi.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="pages/rules.html">Kurallar</a>
+                <a href="pages/announcements.html">Duyurular</a>
+                <a href="https://discord.gg/tKyz5p6MWx" target="_blank">
+                    Discord
+                </a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 ZERA SMP. Tüm hakları saklıdır.
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
